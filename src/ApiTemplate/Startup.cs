@@ -44,6 +44,8 @@ namespace ApiTemplate
             {
                 endpoints.MapControllers();
             });
+
+            app.UseAutoShutdown();
         }
     }
 }
